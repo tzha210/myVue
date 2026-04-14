@@ -90,9 +90,7 @@ const remainingCount = computed(() => {
         Active
       </button>
       <button
-        @click="filter = 'completed'"
-        :class="{ active: filter === 'completed' }"
-      >
+        @click="filter = 'completed'" :class="{ active: filter === 'completed' }">
         Completed
       </button>
     </div>
